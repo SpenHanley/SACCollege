@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">South Ayrshire Council</string>
+
+    <string name="btn_school_holidays">School Holidays</string>
+    <string name="btn_contact_us">Contact US</string>
+    <string name="btn_show_things">Things To Do</string>
+    <string name="btn_tourism">Tourism</string>
+    <string name="btn_exit">Exit</string>
+    <string name="btn_home">Home</string>
+
+    <string name="tap_to_continue">TAP TO CONTINUE</string>
+    <string name="south_ayrshire_council_logo">South Ayrshire Council logo</string>
+    <string name="twitter_logo_button">Twitter Logo Button</string>
+    <string name="linkedin_logo_button">Linkedin Logo Button</string>
+    <string name="youtube_logo">Youtube Logo</string>
+    <string name="flickr_logo">Flickr logo</string>
+    <string name="school_holidays">School Holidays</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="phone">Phone</string>
+    <string name="phone_number">03001230900</string>
+    <string name="write">Write</string>
+    <string name="tourism">Tourism</string>
+    <string name="tourism_info">South Ayrshire has a distinctive appeal to visitors - long sandy beaches; rolling countryside; market towns and rural villages, a rich built and cultural heritage unrivalled golf and sporting opportunities; and a host of other leisure and recreational facilities make it a must visit must return destination Excellent air, sea, rail and road links make South Ayrshire quickly and easily accessible. South Ayrshire offers a wide selection of quality assured accommodation from hotels to bed and breakfast and self catering establishments to suit all preferences and budgets that are available all year round. When it comes to wining and dining, South Ayrshire boasts a wide array of restaurants, bistros and bars, many serving local produce to suit all tastes and pockets.</string>
+    <string name="stuff_todo">South Ayrshire offers a wide selection of things to do. Discover the life and times of Scotland\'s national bard, Robert Burns, born in Alloway in the southern outskirts of Ayr in 1759, at the Robert Burns Birthplace Museum. Visit architect Robert Adams\' masterpiece: Culzean Castle and Country Park near Maybole. Enjoy the \'Sport of Kings\' at Ayr Racecourse, Scotland\'s premier racing centre offering more racing days than any other Scottish course including the Scottish Grand National and the Ayr Gold Cup. Take in an exhibition at Rozelle House and Maclaurin Galleries and the McKechnie Institute. Take in a show at the Gaiety Theatre, Ayr, or one of the many local events. Add to this golf, football, sailing, angling, bowling, shopping, night life, beaches and promenades, gardens and parks, scenic paths plus much, much more, you can be as busy or a leisurely as you choose. With a year round programme of indoor and outdoor events, South Ayrshire has international appeal with something for everyone.</string>
+    <string name="things_to_do">Things To Do</string>
+
+    <string-array name="holiday_info">
+        <item>Date	Holiday</item>
+        <item>Autumn term</item>
+        <item>16 August 2016	Inservice day</item>
+        <item>17 August 2016	Inservice day</item>
+        <item>18 August 2016	Pupils return</item>
+        <item>16 September 2016 – 19 September 2016	Schools closed</item>
+        <item>7 October 2016	Schools close</item>
+        <item>17 October 2016	Inservice day</item>
+        <item>18 October 2016	Pupils return</item>
+        <item>23 December 2016	Term ends</item>
+        <item>Spring term</item>
+        <item>9 January 2017	Pupils return</item>
+        <item>9 February 2017	School close</item>
+        <item>14 February 2017	Inservice day</item>
+        <item>15 February 2017	Pupils return</item>
+        <item>31 March 2017	Schools close</item>
+        <item>Summer term</item>
+        <item>18 April 2017	Pupils return</item>
+        <item>1 May 2017	Schools closed, May day Holiday</item>
+        <item>4 May 2017	Inservice day</item>
+        <item>29 May 2017	Schools closed</item>
+        <item>30 May 2017	Pupils return</item>
+        <item>28 June 2017	Term ends</item>
+    </string-array>
+
+    <string-array name="address_array">
+        <item>South Ayrshire Council</item>
+        <item>County Buildings</item>
+        <item>Wellington Square</item>
+        <item>Ayr</item>
+        <item>KA7 1DR</item>
+    </string-array>
+</resources>

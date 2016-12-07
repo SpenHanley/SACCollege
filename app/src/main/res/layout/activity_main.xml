@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:contentDescription="@string/south_ayrshire_council_logo"
+        app:srcCompat="@mipmap/ic_launcher"/>
+
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_logo"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_school_holidays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_school_holidays"
+            android:textColor="@color/colorButtonText"
+            android:theme="@style/AppTheme.Blue"
+            android:onClick="showHolidays"/>
+
+        <Button
+            android:id="@+id/btn_contact_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_contact_us"
+            android:textColor="@color/colorButtonText"
+            android:theme="@style/AppTheme.Blue"
+            android:onClick="showContact"/>
+
+        <Button
+            android:id="@+id/btn_bin_collection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_tourism"
+            android:textColor="@color/colorButtonText"
+            android:theme="@style/AppTheme.Blue"
+            android:onClick="showTourism"/>
+
+        <Button
+            android:id="@+id/btn_recycle_centers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_show_things"
+            android:textColor="@color/colorButtonText"
+            android:theme="@style/AppTheme.Blue"
+            android:onClick="showThings"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.Blue"
+            android:textColor="#fff"
+            android:text="@string/btn_exit"
+            android:onClick="exit"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentEnd="true">
+
+        <ImageButton
+            android:id="@+id/twitter_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_twitter_logo"
+            android:background="#fff"
+            android:contentDescription="@string/twitter_logo_button"/>
+
+
+        <ImageButton
+            android:id="@+id/linkedin_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_linked_in"
+            android:background="#fff"
+            android:contentDescription="@string/linkedin_logo_button"/>
+
+
+        <ImageButton
+            android:id="@+id/youtube_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_youtube_logo"
+            android:contentDescription="@string/youtube_logo"
+            android:background="#fff"/>
+
+
+        <ImageButton
+            android:id="@+id/flickr_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_flickr_logo"
+            android:contentDescription="@string/flickr_logo"
+            android:background="#fff"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
